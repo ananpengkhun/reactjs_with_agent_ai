@@ -6,7 +6,7 @@ function UseMemoView() {
   const [multiplier, setMultiplier] = useState(2);
 
   // This function simulates an expensive calculation
-  const calculateExpensiveValue = (num: any, mult: any) => {
+  const calculateExpensiveValue = (num: number, mult: number) => {
     console.log('Calculating expensive value...');
     // Simulate a time-consuming operation
     let result = 0;

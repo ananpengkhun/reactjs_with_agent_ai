@@ -16,7 +16,7 @@ export default function DataImage({
      })
 
     
-    var stringAlt = `Picture of the author ${data}`;
+    let stringAlt = `Picture of the author ${data}`;
     console.log("Image URL222:"+stringAlt);
     return (
         <div>

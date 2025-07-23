@@ -1,7 +1,7 @@
 "use client";
 
 // import { useRouter } from "next/navigation";
-// import { Suspense, useCallback } from "react";
+import { Suspense } from "react";
 import DataImage from "./data_image";
 
 export default function LoginPage() {

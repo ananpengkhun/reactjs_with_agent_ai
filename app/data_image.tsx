@@ -13,10 +13,10 @@ export default function DataImage({
     const url = use(imageUrl)
     useEffect(() => {          
         setData(url)
-     })
+     }, [url])
 
     
-    let stringAlt = `Picture of the author ${data}`;
+    const stringAlt = `Picture of the author ${data}`;
     console.log("Image URL222:"+stringAlt);
     return (
         <div>

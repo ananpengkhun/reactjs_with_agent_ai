@@ -30,7 +30,7 @@ export default function DashboardAfterLogin() {
     <div>
       <NavBarCommon />
       <div style={{ padding: '2rem', textAlign: 'center' }}>
-        <h1>Welcome to your Dashboard! sssssssss</h1>
+        <h1>Welcome to your Dashboard! sssssssss ti fixed</h1>
         <p>You have successfully logged in.</p>
         {/* Pie chart showcase */}
         <div style={{ maxWidth: 400, margin: '2rem auto' }}>
